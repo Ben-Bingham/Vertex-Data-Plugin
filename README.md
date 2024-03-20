@@ -17,4 +17,4 @@ This Okular plugin allows the user to open and view .vertexdata files within Oku
 
 3. Install shared librarys:
     - Install `okularGenerator_vertex_data.so` into `/usr/lib/x86_64-linux-gnu/qt6/plugins/okular_generators/`.
-    - Install the folder `dependencys` into `/usr/lib/`.
+    - Install the folder `dependencies` into `/usr/lib/`.
