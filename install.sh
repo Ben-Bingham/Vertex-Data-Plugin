@@ -7,3 +7,4 @@ cp org.kde.okular-vertex-data.metainfo.xml /usr/share/metainfo
 cp okularApplication_vertex_data.desktop /usr/share/applications
 
 cp -r dependencies /usr/lib
+cp okularGenerator_vertex_data.so /usr/lib/x86_64-linux-gnu/qt6/plugins/okular_generators
