@@ -2,19 +2,23 @@ This Okular plugin allows the user to open and view .vertexdata files within Oku
 
 ### Methods of instaling:
 
+Regardless of method, begin by install Okular from your preferred package manager.
+
 ## Method #1
-1. run `install.sh`
+1. Run `install.sh`
+
+2. Add the dependencies folder to `$LD_LIBRARY_PATH` with the command: `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(pwd)/dependencies` (assumes you run the command from the directory containing `dependencies`)
 
 ## Method #2
 1. Associating the file extension `.vertexdata` with the mime-type `text/x-vertdata`:
     - Install `vertex-data-mime.xml` into `/usr/share/mime/packages/`
     - Update mime-type database with the command: `update-mime-database /usr/share/mime`
-(Command can be run from any directory).
+(Command can be run from any directory)
 
 2. Install nessacary "configuration" files into correct directories:
-    - Install `org.kde.okular-vertex-data.metainfo.xml` into `/usr/share/metainfo/`.
-    - Install `okularApplication_vertex_data.desktop` and MAYBE `org.kde.mobile.okular_vertex_data.desktop` into `/usr/share/applications/`.
+    - Install `org.kde.okular-vertex-data.metainfo.xml` into `/usr/share/metainfo/`
+    - Install `okularApplication_vertex_data.desktop` into `/usr/share/applications/`
 
 3. Install shared librarys:
-    - Install `okularGenerator_vertex_data.so` into `/usr/lib/x86_64-linux-gnu/qt6/plugins/okular_generators/`.
-    - Install the folder `dependencies` into `/usr/lib/`.
+    - Install `okularGenerator_vertex_data.so` into `/usr/lib/x86_64-linux-gnu/qt6/plugins/okular_generators/`
+    - Install the folder `dependencies` into `/usr/lib/`
