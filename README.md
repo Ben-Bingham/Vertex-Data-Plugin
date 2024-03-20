@@ -3,7 +3,7 @@ This Okular plugin allows the user to open and view .vertexdata files within Oku
 ### Methods of instaling:
 
 ## Method #1
-1. run install.sh
+1. run `install.sh`
 
 ## Method #2
 1. Associating the file extension `.vertexdata` with the mime-type `text/x-vertdata`:
