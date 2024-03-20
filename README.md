@@ -7,8 +7,8 @@ This Okular plugin allows the user to open and view .vertexdata files within Oku
 
 ## Method #2
 1. Associating the file extension `.vertexdata` with the mime-type `text/x-vertdata`:
-    - Install `vertex-data-mime.xml` into `/usr/local/share/mime/packages/`
-    - Update mime-type database with the command: `update-mime-database /usr/local/share/mime`
+    - Install `vertex-data-mime.xml` into `/usr/share/mime/packages/`
+    - Update mime-type database with the command: `update-mime-database /usr/share/mime`
 (Command can be run from any directory).
 
 2. Install nessacary "configuration" files into correct directories:
