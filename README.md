@@ -11,6 +11,7 @@ This Okular plugin allows the user to open and view .vertexdata files within Oku
 - Update mime-type database with the command: `update-mime-database /usr/local/share/mime`
 (Command can be run from any directory).
 
+
 2. Install nessacary "configuration" files into correct directories:
 - Install `org.kde.okular-vertex-data.metainfo.xml` into `/usr/share/metainfo/`.
 - Install `okularApplication_vertex_data.desktop` and MAYBE `org.kde.mobile.okular_vertex_data.desktop` into `/usr/share/applications/`.
