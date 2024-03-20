@@ -5,7 +5,7 @@ This Okular plugin allows the user to open and view .vertexdata files within Oku
 Regardless of method, begin by install Okular from your preferred package manager.
 
 ## Method #1
-1. Run `install.sh`
+1. Run `sudo ./install.sh`
 
 2. Add the dependencies folder to `$LD_LIBRARY_PATH` with the command: `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(pwd)/dependencies` (assumes you run the command from the directory containing `dependencies`)
 
