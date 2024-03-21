@@ -22,3 +22,5 @@ Regardless of method, begin by install Okular from your preferred package manage
 3. Install shared librarys:
     - Install `okularGenerator_vertex_data.so` into `/usr/lib/x86_64-linux-gnu/qt6/plugins/okular_generators/`
     - Install the folder `dependencies` into `/usr/lib/`
+
+4. Add the dependencies folder to `$LD_LIBRARY_PATH` with the command: `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(pwd)/dependencies` (assumes you run the command from the directory containing `dependencies`)
