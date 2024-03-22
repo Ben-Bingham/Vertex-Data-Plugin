@@ -13,3 +13,4 @@ InitialPreference=2
 NoDisplay=true
 X-KDE-Keywords=vertex
 X-KDE-AliasFor=org.kde.okular.kirigami.desktop
+X-KDE-Priority=1000

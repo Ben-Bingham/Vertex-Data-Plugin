@@ -10,3 +10,4 @@ InitialPreference=7
 Categories=Qt;KDE;Graphics;Viewer;
 NoDisplay=true
 X-KDE-Keywords=vertex
+X-KDE-Priority=1000
