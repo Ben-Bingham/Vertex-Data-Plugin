@@ -6,4 +6,4 @@ update-mime-database /usr/share/mime
 install org.kde.okular-vertex-data.metainfo.xml /usr/share/metainfo/
 install okularApplication_vertex_data.desktop /usr/share/applications/
 
-install okularGenerator_vertex_data.so /usr/lib/x86_64-linux-gnu/qt6/plugins/okular_generators/
+install okularGenerator_vertex_data.so /usr/lib64/qt5/plugins/okular/generators
