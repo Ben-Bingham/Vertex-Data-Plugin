@@ -9,7 +9,6 @@ Regardless of platform, begin by installing Okular from your preferred package m
 2. Make sure you have the necessary dependencies installed on your system:
 * GLFW
 * GLEW
-* Open Gl
 
 3. Add the dependencies folder to `$LD_LIBRARY_PATH` with the command: `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(pwd)/dependencies` (assumes you run the command from the directory containing `dependencies`)
 
