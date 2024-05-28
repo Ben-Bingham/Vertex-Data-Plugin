@@ -9,3 +9,5 @@ install okularApplication_vertex_data.desktop /usr/share/applications/
 install okularVertexData.desktop /usr/share/kservices5/
 
 install okularGenerator_vertex_data.so /usr/lib64/qt5/plugins/okular/generators
+install triangle.frag.spv /usr/lib64/qt5/plugins/okular/generators
+install triangle.vert.spv /usr/lib64/qt5/plugins/okular/generators
